@@ -4,4 +4,9 @@ class Patient {
   String? disease;
 
   Patient(this.name, this.age, this.disease);
+  void display() {
+    print("name:$name");
+    print("age: $age");
+    print("disease: $disease");
+  }
 }
