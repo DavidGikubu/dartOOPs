@@ -13,4 +13,5 @@ class Patient {
 
 void main() {
   Patient patient1 = Patient("Salsa", 150, "very old");
+  patient1.display();
 }
