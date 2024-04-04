@@ -3,11 +3,8 @@ class Person {
   int? age;
   String? country;
 
-  Person(String name, int age, String country) {
-    this.name = name;
-    this.age = age;
-    this.country = country;
-  }
+  Person(this.name, this.age, this.country);
+
   void display() {
     print("constructor called..");
     print("name: ${this.name}");
