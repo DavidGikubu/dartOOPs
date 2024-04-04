@@ -10,3 +10,7 @@ class Patient {
     print("disease: $disease");
   }
 }
+
+void main() {
+  Patient patient1 = Patient("Salsa", 150, "very old");
+}
